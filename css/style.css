@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+    --cor1: #805575;
+    --cor2: #2d112d;
+    --cor3: #552277;
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Roboto', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+header {
+    background: #2d112d url('../imagens/fundo.jpg') center center;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px #00000055;
+    
+    border-bottom: 2px solid black;
+}
+
+#celofane {
+    background-color: #2d112d77;
+    width: 100%;
+    padding: 1em;
+}
+
+
+
+h1 {
+    text-transform: uppercase;    
+}
+
+
+main {
+    padding: 30px 50px;
+    max-width: 600px;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+#titulo > span {
+    font-size: 1.2em;
+    
+}
+
+.card {
+    background-color: var(--cor2);
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 8px;
+    border: 2px solid black;
+}
+
+.lineinput {
+    display: grid;
+    margin: 8px 0px;
+}
+
+input {
+    padding: 4px;
+    border-radius: 8px;
+    border: 2px solid black;
+    outline: 0;
+}
+
+button {
+    border: 0px;
+    outline: 0px;
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #a89ea8;
+    transition-duration: .5s;
+}
+
+#content {
+    margin-top: 1.5em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table tr:nth-child(even){
+    background-color: #a89ea8;
+}
+
+td, th {
+    border: 1px solid #bdbdbd;
+    padding: 8px;
+    
+}
+
+th {
+    text-align: left;
+    background-color: #111111;
+    color: white;
+    font-weight: bold;
+    
+}
+
+td:hover {
+    background-color: #805575;
+   
+    
+}
+
+td.action {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+
+img {
+    
+    margin: auto;
+    width: 22px;
+    cursor: pointer;
+}

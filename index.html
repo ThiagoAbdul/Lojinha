@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+    <title>POO</title>
+</head>
+<body>
+    <header>
+        <div id="celofane">
+            <h1>Minha loja</h1>
+        </div>
+    </header>
+    <main>
+        <div id="titulo">
+            <h2>Produtos</h2>
+            <span>Lista de produtos da minha loja</span>
+        </div>
+        <div class="card">
+            
+            <div class="lineinput">
+                <label for="produto">Produto: </label>
+                <input type="text" id="produto" placeholder="nome do produto">
+            </div>
+            <div class="lineinput">
+                <label for="preco">Preço: </label>
+                <input type="number" id="preco" placeholder="preco do produto">
+            </div>
+
+            <button id='save' onclick='produto.salvar()'>Salvar</button>
+            <button id='cancel' onclick='produto.cancelar()'>Cancelar</button>
+        </div>
+
+        <div id="content">
+            <table>
+                <thead>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Preço</th>
+                    <th colspan="2">Ações</th>
+                </thead>
+                <tbody id="tabela">
+                   
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+</body>
+</html>
